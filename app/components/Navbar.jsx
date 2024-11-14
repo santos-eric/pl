@@ -10,15 +10,15 @@ const Navbar = () => {
         </Link>
 
         <div className="flex items-center gap-5 text-black">
-          <Link href="www.google.com"><span>Mission</span></Link>
-          <Link href="www.google.com"><span>Success</span></Link>
-          <Link href="www.google.com"><span>FAQ</span></Link>
-          <Link href="www.google.com"><span>Contact</span></Link>
+          <Link href="/"><span>Mission</span></Link>
+          <Link href="/"><span>Success</span></Link>
+          <Link href="/"><span>FAQ</span></Link>
+          <Link href="/"><span>Contact</span></Link>
         </div>
 
         <div className="flex items-center gap-5 text-black">
-          <Link href="www.google.com"><span>Dashboard</span></Link>
-          <Link href="www.google.com"><span>Public Server</span></Link>
+          <Link href="/"><span>Dashboard</span></Link>
+          <Link href="/"><span>Public Server</span></Link>
         </div>
       </nav>
     </header>
