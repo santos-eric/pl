@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import { Button, buttonVariants } from '@/components/ui/button'
 
 const Navbar = () => {
   return (
@@ -17,8 +18,8 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center gap-5 text-black">
-          <Link href="/"><span>Dashboard</span></Link>
-          <Link href="/"><span>Public Server</span></Link>
+          <Button variant='outline'>Dashboard</Button>
+          <Button>Public Server</Button>
         </div>
       </nav>
     </header>
