@@ -1,6 +1,7 @@
-import React from 'react';
+import ReviewCard from '@/components/ui/ReviewCard'
 
 const Home = () => {
+
 	return (
 		<>
 			<section className="blue_container">
@@ -18,7 +19,9 @@ const Home = () => {
 				</p>
 
 				<ul className="mt-7 card_grid">
-					Review Card
+					<ReviewCard/>
+					<ReviewCard/>
+					<ReviewCard/>
 				</ul>
 			</section>
 		</>
